@@ -5,3 +5,7 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+Create Table AnniversaryAttendees
+( CustomerID Int Primary Key Not Null,
+PartySize Int Not Null)
