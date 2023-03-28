@@ -8,3 +8,4 @@ From Loans l, Books b, Patrons p
 Where l.BookID = b.BookID
 And l.PatronID = p.PatronID
 And l.DueDate = '2022-07-13'
+And l.ReturnedDate is Null
